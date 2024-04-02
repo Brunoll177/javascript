@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pais</title>
+</head>
+<body>
+    <h1>Estrangeiro</h1>
+    <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Mostar" onclick="clicar()">
+    <div id="campo">
+        Mostar
+    </div>
+    <script>
+        var pais = document.getElementById("txtp")
+        var camp = document.getElementById("campo")
+        function clicar(){
+            if(pais.value == "Brasil"){
+            camp.innerHTML = "Brasileiro"
+
+        } else{
+            camp.innerHTML = "Estrangeiro"
+        }
+    }
+    </script>
+    
+</body>
+</html>
