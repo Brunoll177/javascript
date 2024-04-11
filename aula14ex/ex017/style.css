@@ -21,3 +21,9 @@ footer{
     font-style: italic;
 
 }
+#flex{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
