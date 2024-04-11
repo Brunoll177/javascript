@@ -1,0 +1,62 @@
+body{
+background-color: rgb(83, 83, 255);
+font: normal 15pt Arial;
+}
+header{
+color: white;
+text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+#res{
+    text-align: center;
+    font-size: 22px;
+}
+#res > img{
+    margin-top: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.336);
+    border-radius: 50%;
+    border: 4px solid rgb(83, 83, 255);;
+
+}
+input[type=button]{
+    background-color: rgb(83, 83, 255);
+    color: white;
+    height: 50px;
+    width:100px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.342);
+    
+}
+input[type=button]:active{
+    background-color: rgb(5, 5, 119);
+
+    
+}
+
+   #se{
+        background-color: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+        display: none;
+    }
