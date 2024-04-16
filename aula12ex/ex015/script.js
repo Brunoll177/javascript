@@ -2,6 +2,7 @@ var button = document.getElementById("bnt")
 button.addEventListener("click", verificar)
 var img = document.createElement("img")
 function verificar(){
+    
     var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById("txtano")
@@ -41,8 +42,8 @@ function verificar(){
 
             }
         }
-        res.innerHTML = `Detectamos ${genero} de idade ${idade} anos` 
-        res.appendChild(img)
+       res.innerHTML = `Detectamos ${genero} de idade ${idade} anos` 
+       res.appendChild(img)
         
 
         
